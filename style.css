@@ -154,6 +154,20 @@ a { color: var(--blue); }
   border: 1px solid var(--border);
 }
 
+.btn-app {
+  display: inline-flex;
+  align-items: center;
+  gap: 9px;
+}
+
+.btn-app svg {
+  width: 17px;
+  height: 17px;
+  fill: currentColor;
+  flex: none;
+  margin-top: -2px;
+}
+
 /* Features */
 .section { padding: 40px 0; }
 
